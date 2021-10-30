@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: inter,sans-serif;
+ }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6f8f9;
+    max-height: 1205px;
+    /*position: fixed;*/
+    width: 100%;
+    top: 0;
+}
+
+nav div{
+    margin-top: 30px;
+}
+
+.stutern{
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .05px;
+    color: #00BFB1;
+    font-weight: 400;
+    text-transform: uppercase;
+    flex: 2;
+}
+
+.stutern h1{
+    color: #e6f8f9;
+    background-color: #00BFB1;
+    padding: 4px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    margin-right: 7px;
+    font-size: 23px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1c1c1c;
+    text-decoration: none;
+    
+}
+
+.navbar div{
+    margin-right: 20px;
+}
+
+.navbar-dropdown{
+    padding: 14px 30px;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+
+.navbar-dropdown a{
+    text-align: center;
+}
+
+
+.navbar-dropdown:hover .dropdown{
+    display: block;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
+    border-radius: 4px;
+}
+
+.dropdown a{
+    display: block;
+    text-align: left;
+    padding: 5px 15px;
+    color: #4a4a4a;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.nav-button{
+    margin-right: 20px;
+}
+
+.log-in{
+    background-color: transparent;
+    border-color: #1b1642;
+    cursor: pointer;
+    padding: 6px 13px;
+    border-radius: 4px; 
+    margin-right: 5px;  
+    border-width: 2px;
+}
+
+.log-in:hover{
+    background-color: #1b1642;
+    border-color: transparent;
+}
+
+.log-in a{
+    color: #1b1642;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.log-in a:hover{
+    color: #fff;
+}
+
+.take{
+    background-color: #1bd3c6;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 13px;
+}
+
+.take a{
+    color: #1b1642;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+} 
+
+.nav-button a{
+ text-decoration: none;    
+}
+
+.hero{
+    background-color: #e6f8f9;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero-text{
+    margin: 100px 50px;
+    padding: 20px;
+}
+
+.hero-text h1{
+    font-size: 64px;
+    line-height: 68px;
+    text-align: start;
+    letter-spacing: -2px;
+    color: #1b1642;
+    font-family: epilogue, sans-serif;
+    padding-bottom: 24px;
+    font-weight: 750;
+}
+
+.hero-text p{
+    font-size: 16px;
+    color: #1b1642;
+    line-height: 27px;
+    text-align: start;
+    padding-bottom: 30px;
+    font-weight: 300;
+    max-width: 450px;
+}
+
+.hero-text button{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #1bd3c6;
+    color: #1b1642;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 13px;
+
+}
+
+.hero-img{
+ margin: 100px;
+}
+
+.employable{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.employable-text{
+    flex: 1;
+    margin: 190px 100px;
+    font-family: epilogue, sans-serif;
+}
+
+.employable-text h2{
+    font-family: epilogue, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #1b1642;
+    padding-bottom: 30px;
+}
+
+.months{
+    color: #1bd3c6;
+}
+
+.employable-text p{
+    font-family: inter, sans-serif;
+    font-size: 16px;
+    color: #1b1642;
+    line-height: 24px;
+    text-align: start;
+    padding-bottom: 30px;
+    font-weight: 300;
+    max-width: 390px;
+}
+
+.employable-img{
+    flex: 1;
+    margin: 140px;
+    margin-left: 100px;
+}
+
+.believe{
+    text-align: center;
+
+}
+
+.believe h1{
+    font-family: epilogue, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #1b1642;
+    word-wrap: break-word;
+}
+
+.believe p{
+    font-family: inter, sans-serif;
+    font-size: 16px;
+    color: #1b1642;
+    line-height: 24px;
+    padding: 30px 0 100px 0;
+    font-weight: 300;
+}
+
