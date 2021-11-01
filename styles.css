@@ -12,9 +12,10 @@ nav{
     justify-content: space-between;
     background-color: #e6f8f9;
     max-height: 1205px;
-    /*position: fixed;*/
+    position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 nav div{
@@ -148,6 +149,7 @@ nav div{
     background-color: #e6f8f9;
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
     
 }
 .hero-text{
@@ -501,6 +503,7 @@ footer{
 }
 
 .footer-logo-text a{
+    font-family: inter, sans-serif;
     text-decoration: none;
     font-size: 16px;
     font-weight: 300;
@@ -508,8 +511,29 @@ footer{
     color: #fff
 }
 
+.footer-text div{
+    padding: 0 100px;
+    margin-left: 100px;
+}
+
+.footer-div h1{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: epilogue, sans-serif;
+    color: #797492;
+}
+
 .footer-div a{
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #fff;
+    padding: 10px;
+    font-family: inter, sans-serif;
 }
+
