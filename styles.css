@@ -584,3 +584,9 @@ footer{
         display: none;
     }
 }
+
+.divx{
+    border: solid;
+    font-size: 10px;
+    
+}
